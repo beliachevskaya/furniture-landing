@@ -1,0 +1,58 @@
+*, *::before, *::after 
+    box-sizing: inherit
+
+body 
+    margin: 0
+    font-family: "Roboto", sans-serif
+    letter-spacing: 0.05em
+
+ul 
+    list-style-type: none
+    margin: 0
+    padding: 0
+    li 
+        text-align: center
+        font-size: 1em
+    
+.menu
+    width: 100%
+    display: flex
+    flex-flow: row nowrap
+    height: 3.5em
+    border-bottom: 1px solid #F5F5F5
+    color: #000000
+    .menu-title h3
+        margin-top: 0
+        text-align: center
+    .menu-title, .menu-button, .menu-search 
+        margin-top: 1em
+        flex: 1
+    .menu-button
+        margin-left: 0.5em
+        .material-icons
+            font-size: 18px
+            color: #000000
+    .menu-search 
+        margin-right: 0.5em
+        position: relative
+        .material-icons
+            font-size: 18px
+            color: #000000
+            position: absolute
+            right: 0%
+        input
+            border: none
+            width: 6em
+            position: absolute
+            right: 5%
+        input:active, input:hover, input:focus
+            outline: 0
+            outline-offset: 0
+            border-bottom: 1px solid #696969
+a:link 
+    text-decoration: none
+a:hover 
+    text-decoration: none
+.main-menu  
+    background-color: #f7f7f7
+
