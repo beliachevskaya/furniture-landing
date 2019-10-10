@@ -9,17 +9,6 @@ $(document).ready(function() {
         arrows: false,
         responsive: [
             {
-                breakpoint: 1200,
-                settings: {
-
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                }
-            },
-            {
                 breakpoint: 480,
                 settings: {
                     dots: false
