@@ -6,17 +6,17 @@ $(document).ready(function() {
         fade: true,
         cssEase: 'linear',
         autoplay: true,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 1200,
                 settings: {
-                    // arrows: true
+
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    // arrows: true
                 }
             },
             {

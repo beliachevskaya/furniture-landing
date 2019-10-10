@@ -1,9 +1,145 @@
 @media (min-width: 481px) and (max-width: 768px)
     .main-menu
         display: flex
-        flex-flow: row nowrap
-        justify-content: space-around
-        font-size: calc(0.7em + 1vw) 
-        letter-spacing: 0.05em
-        font-weight: bold
+        flex-low: row nowrap
+        height: 8em
+        a 
+            color: #C0C0C0
+            font-weight: bold
+            font-size: calc(0.6em + 0.1vw) 
+            flex: 1
+            figure
+                margin: 0
+                text-align: center
+                img
+                    margin-top: 1.5em
+                    margin-bottom: 1.5em
+                    width: 50px
+                    height: 50px            
+                figcaption  
+                    text-align: center
+    .carousel
+        margin-bottom: 10em
+        .slick-dots
+            text-align: start
+            padding-left: 10%
+            li
+                margin-left: calc(-0.6em + 1vw)
+        display: block
+        width: 100%
+        .carousel-img
+            img
+                max-width: 100%
+            .carousel-img-text 
+                width: 20em
+                height: 6em
+                margin-left: 10%
+                position: absolute
+                top: 2%
+                display: flex
+                flex-flow: column nowrap
+                .first-block   
+                    font-size: calc(0.8em + 2vw)
+                    font-weight: bold
+                    margin-bottom: 0.2em
+                .second-block
+                    font-size: calc(0.3em + 2vw) 
+                    color: #808080
+                    margin-bottom: 0.2em   
+                .third-block 
+                    font-size: calc(0.6em + 2vw)
+                    font-weight: bold 
+    .designers-header, .blog-header
+        display: flex
+        flex-flow: row
+        align-items: baseline
+        h3
+            font-size: calc(1em + 1vw) 
+            white-space: nowrap
+        a 
+            margin-right: 10%
+            margin-left: auto
+            font-size: calc(0.3em + 1vw) 
+            color: #808080
+            white-space: nowrap
+            .material-icons
+                font-size: calc(0.3em + 1vw)
+    .designers-container
+        border-top: 1px solid #DCDCDC
+        margin-top: 3em
+        display: flex
+        flex-flow: column nowrap
+        .first-row, .second-row, .third-row, .fourth-row, .fifth-row
+            margin-top: 1em
+            padding-left: 10%
+            padding-right: 10%
+            padding-bottom: 1em
+            border-bottom: 1px solid #DCDCDC
+            .first-carousel, .second-carousel, .third-carousel, .fourth-carousel, .fifth-carousel
+                text-align: center
+                .slick-next:before  
+                    content: ">"
+                    font-size: 20px
+                    font-weight: bold
+                    color: #696969
+                .slick-prev:before
+                    content: "<"
+                    color: #696969
+                    font-size: 20px
+                    font-weight: bold
+    .inspiration-block
+        margin-top: 4em
+        h3
+            font-size: calc(1em + 1vw) 
+            white-space: nowrap
+    .blog-container
+        margin-top: 4em
+        margin-left: 10%
+        .posts-container
+            display: flex
+            flex-flow: column nowrap
+            .first-post, .second-post, .third-post
+                figure
+                    margin: 2em 0  
+                    img 
+                        float: left
+                        width: 30%
+                        margin-right: 5%
+                        padding-bottom: 10%
+                    figcaption
+                        width: 90%
+                        font-weight: bold
+                    p 
+                        width: 90%
+    .footer
+        margin-right: 10%
+        margin-left: 10%
+        text-align: center
+        color: #A9A9A9
+        ul 
+            width: 100%
+            display: flex
+            flex-flow: row nowrap
+            justify-content: space-around
+            li
+                flex: 1
+                a:hover
+                    text-decoration: underline
+                    color: #696969
+                a   
+                    color: #A9A9A9
+    .menu-dropdown
+        .nav-menu   
+            display: flex
+            flex-flow: row nowrap
+            li  
+                flex: 1
+                a:hover
+                    text-decoration: underline
+                    color: #696969
+                a   
+                    color: #A9A9A9
+    .designers
+        margin-top: 4em
+           
 

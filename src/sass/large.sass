@@ -2,4 +2,160 @@
     .main-menu
         display: flex
         flex-low: row nowrap
-        justify-content: space-around
+        height: 10em
+        a 
+            color: #C0C0C0
+            font-weight: bold
+            font-size: calc(0.7em + 0.1vw) 
+            flex: 1
+            figure
+                margin: 0
+                text-align: center
+                img
+                    margin-top: 1.5em
+                    margin-bottom: 1.5em
+                    width: 70px
+                    height: 70px            
+                figcaption  
+                    text-align: center
+    .carousel
+        .slick-dots
+            text-align: start
+            padding-left: 10%
+            li
+                margin-left: calc(-0.6em + 1vw)
+        display: block
+        width: 100%
+        .carousel-img
+            img
+                max-width: 100%
+            .carousel-img-text 
+                width: 35em
+                height: 10em
+                margin-left: 10%
+                position: absolute
+                top: 2%
+                display: flex
+                flex-flow: column nowrap
+                .first-block   
+                    font-size: calc(1.2em + 2vw)
+                    font-weight: bold
+                    margin-bottom: 0.2em
+                .second-block
+                    font-size: calc(0.3em + 1vw) 
+                    color: #808080
+                    margin-bottom: 0.2em   
+                .third-block 
+                    font-size: calc(0.8em + 1vw)
+                    font-weight: bold 
+    .designers-header, .blog-header
+        display: flex
+        flex-flow: row
+        align-items: baseline
+        h3
+            font-size: calc(1em + 1vw) 
+            white-space: nowrap
+        a 
+            margin-right: 10%
+            margin-left: auto
+            font-size: calc(0.3em + 1vw) 
+            color: #808080
+            white-space: nowrap
+            .material-icons
+                font-size: calc(0.3em + 1vw)
+    .designers-container
+        border-top: 1px solid #DCDCDC
+        border-bottom: 1px solid #DCDCDC
+        padding-top: 3em
+        padding-bottom: 3em
+        .first-row, .second-row, .third-row, .fourth-row, .fifth-row
+            margin-top: 1em
+            padding-left: 10%
+            padding-right: 10%
+            padding-bottom: 1em
+            display: flex
+            flex-flow: row nowrap
+            .first-designer, .second-designer, .third-designer, .fourth-designer, .fifth-designer, .first-carousel, .second-carousel, .third-carousel, .fourth-carousel, .fifth-carousel
+                width: 50%
+            .first-designer, .second-designer, .third-designer, .fourth-designer, .fifth-designer
+                img
+                    float: left
+                    margin-right: 2em
+                    max-width: 100%
+                h5, p  
+                    margin-top: 1em
+                    margin-left: 7.5em
+                    margin-right: 1em
+                h5
+                    font-weight: bold
+                p 
+                    color: #808080
+            .first-carousel, .second-carousel, .third-carousel, .fourth-carousel, .fifth-carousel
+                div
+                    margin-right: 3em
+                .slick-next:before  
+                    content: ">"
+                    font-size: 20px
+                    font-weight: bold
+                    color: #696969
+                .slick-prev:before
+                    content: "<"
+                    color: #696969
+                    font-size: 20px
+                    font-weight: bold
+    .first-row:hover, .second-row:hover, .third-row:hover, .fourth-row:hover, .fifth-row:hover
+        background-color: #f7f7f7  
+    .inspiration-block
+        margin-top: 4em
+        h3
+            font-size: calc(1em + 1vw) 
+            white-space: nowrap
+    .blog-container
+        margin-top: 4em
+        margin-left: 10%
+        .posts-container
+            margin-right: 10%
+            display: flex
+            flex-flow: row nowrap
+            justify-content: space-between
+            .first-post, .second-post, .third-post
+                width: calc(2em + 22vw)
+                text-align: center
+                figure
+                    margin: 2em 0  
+                    img 
+                        width: 100%
+                    figcaption
+                        font-weight: bold
+                    p
+    .footer
+        margin-right: 30%
+        margin-left: 30%
+        text-align: center
+        color: #A9A9A9
+        ul 
+            width: 100%
+            display: flex
+            flex-flow: row nowrap
+            justify-content: space-around
+            li
+                flex: 1
+                a:hover
+                    text-decoration: underline
+                    color: #696969
+                a   
+                    color: #A9A9A9
+    .menu-dropdown
+        .nav-menu   
+            display: flex
+            flex-flow: row nowrap
+            li  
+                flex: 1
+                a:hover
+                    text-decoration: underline
+                    color: #696969
+                a   
+                    color: #A9A9A9
+    .designers
+        margin-top: 4em
+    

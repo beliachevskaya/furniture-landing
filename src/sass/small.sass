@@ -30,9 +30,96 @@
                     text-align: center
                     border-bottom: 1px solid #DCDCDC
     .carousel
+        display: block
         width: 100%
         .carousel-img
             img
                 max-width: 100%
-      
+            .carousel-img-text 
+                width: 14em
+                height: 5em
+                margin-left: 8%
+                position: absolute
+                top: 5%
+                display: flex
+                flex-flow: column nowrap
+                .first-block, .third-block    
+                    font-size: calc(0.7em + 1vw)
+                    font-weight: bold
+                    margin: 0.4em
+                .second-block
+                    font-size: calc(0.6em + 1vw)
+                    margin: 0.4em
+    .designers-header, .blog-header
+        display: flex
+        flex-flow: column nowrap
+        margin-left: 10%
+        h3
+            font-size: calc(1em + 1vw) 
+            white-space: nowrap
+            margin-bottom: 0.5em
+        a 
+            color: #808080
+            white-space: nowrap
+            font-size: calc(0.7em + 1vw) 
+            .material-icons
+                font-size: calc(0.7em + 1vw)
+    .designers-container
+        border-top: 1px solid #DCDCDC
+        margin-top: 3em
+        display: flex
+        flex-flow: column nowrap
+        .first-row, .second-row, .third-row, .fourth-row, .fifth-row
+            margin-top: 1em
+            padding-left: 10%
+            padding-right: 10%
+            padding-bottom: 1em
+            border-bottom: 1px solid #DCDCDC
+            .first-carousel, .second-carousel, .third-carousel, .fourth-carousel, .fifth-carousel
+                text-align: center
+                .slick-next:before  
+                    content: ">"
+                    font-size: 20px
+                    font-weight: bold
+                    color: #696969
+                .slick-prev:before
+                    content: "<"
+                    color: #696969
+                    font-size: 20px
+                    font-weight: bold
+    .inspiration-block
+        margin-top: 2em
+        h3
+            font-size: calc(1em + 1vw) 
+            white-space: nowrap
+            margin-bottom: 0.3em
+    .blog-container
+        margin-top: 2em
+        .posts-container
+            margin-left: 10%
+            margin-right: 10%
+            display: flex
+            flex-flow: column nowrap
+            .first-post, .second-post, .third-post
+                figure
+                    margin: 1em 0  
+                    img 
+                        width: 100%
+                    figcaption
+                        text-align: start
+                        font-weight: bold
+                        h5
+                            margin-top: 0
+                    p 
+    .footer
+        text-align: center
+        color: #A9A9A9
+        a:hover
+            text-decoration: underline
+            color: #696969
+        a   
+            color: #A9A9A9
+    .designers
+        margin-top: 2em
 
+    
